@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BookBox.API/BookBox.API.csproj" />
+  <Project Path="BookBox.Application/BookBox.Application.csproj" />
+  <Project Path="BookBox.Domain/BookBox.Domain.csproj" />
+  <Project Path="BookBox.Infrastructure/BookBox.Infrastructure.csproj" />
+</Solution>
