@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "s1rGgc1uDbg=",
+  "dgSpecHash": "tfbcJO8YL5c=",
   "success": true,
   "projectFilePath": "C:\\Users\\ordon\\OneDrive\\Escritorio\\BookBox\\backend\\BookBox.Infrastructure\\BookBox.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ordon\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\ordon\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
     "C:\\Users\\ordon\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ordon\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",
     "C:\\Users\\ordon\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.11.0\\microsoft.codeanalysis.analyzers.3.11.0.nupkg.sha512",

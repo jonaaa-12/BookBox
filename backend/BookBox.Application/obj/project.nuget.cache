@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EgrQO3lpXM0=",
+  "dgSpecHash": "Ogs1o3hVnTE=",
   "success": true,
   "projectFilePath": "C:\\Users\\ordon\\OneDrive\\Escritorio\\BookBox\\backend\\BookBox.Application\\BookBox.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ordon\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\ordon\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\ordon\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
