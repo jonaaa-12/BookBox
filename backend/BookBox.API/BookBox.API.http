@@ -1,6 +1,38 @@
-@BookBox.API_HostAddress = http://localhost:5098
+@baseUrl = http://localhost:5058
+@bookId = 1
 
-GET {{BookBox.API_HostAddress}}/weatherforecast/
+### 1. Obtener todos los libros (GET)
+GET {{baseUrl}}/api/books
 Accept: application/json
 
-###
+### 2. Obtener un libro por ID (GET)
+GET {{baseUrl}}/api/books/{{bookId}}
+Accept: application/json
+
+### 3. Crear un nuevo libro (POST)
+POST {{baseUrl}}/api/books
+Content-Type: application/json
+
+{
+  "title": "Clean Architecture: A Craftsman's Guide to Software Structure",
+  "author": "Robert C. Martin",
+  "isbn": "978-0134494166",
+  "price": 34.99,
+  "stock": 10
+}
+
+### 4. Actualizar un libro existente (PUT)
+PUT {{baseUrl}}/api/books/{{bookId}}
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "Clean Architecture (Edición Actualizada)",
+  "author": "Robert C. Martin",
+  "isbn": "978-0134494166",
+  "price": 39.99,
+  "stock": 15
+}
+
+### 5. Eliminar un libro (DELETE)
+DELETE {{baseUrl}}/api/books/{{bookId}} 

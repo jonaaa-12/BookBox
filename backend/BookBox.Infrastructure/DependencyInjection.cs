@@ -14,9 +14,11 @@ public static class DependencyInjection
         services.AddDbContext<BookBoxDbContext>(options =>
             options.UseNpgsql(connectionString));
 
-        // 2. Registrar el repositorio (Inversión de Dependencias)
+        // 2. Registrar los repositorios (Inversión de Dependencias)
         services.AddScoped<IBookRepository, BookRepository>();
+        services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IUserBookRepository, UserBookRepository>();
 
         return services;
     }
-} 
+}

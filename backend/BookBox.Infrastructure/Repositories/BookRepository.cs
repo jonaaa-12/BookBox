@@ -29,4 +29,10 @@ public class BookRepository : IBookRepository
         await _context.Books.AddAsync(book);
         await _context.SaveChangesAsync();
     }
+
+    public async Task UpdateAsync(Book book)
+    {
+        _context.Books.Update(book);
+        await _context.SaveChangesAsync();
+    }
 } 

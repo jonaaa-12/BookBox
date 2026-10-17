@@ -1,4 +1,5 @@
 using DotNetEnv;
+using BookBox.Application;
 using BookBox.Infrastructure;
 using Scalar.AspNetCore; 
 
@@ -12,6 +13,7 @@ var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__Po
                        ?? throw new InvalidOperationException("Falta la cadena de conexión.");
 
 // 2. Registrar Servicios en el Contenedor
+builder.Services.AddApplication();   // validadores (FluentValidation)
 builder.Services.AddInfrastructure(connectionString);
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
