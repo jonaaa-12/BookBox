@@ -9,4 +9,4 @@ public interface IBookRepository
     Task AddAsync(Book book);
 
     Task UpdateAsync(Book book);
-} 
+}   
