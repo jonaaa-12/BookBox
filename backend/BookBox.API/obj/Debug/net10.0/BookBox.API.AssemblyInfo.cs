@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookBox.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d681a3c6ab9a558cf563ba5fdd3fb1e904e2ffb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8747950b63326ce76281c2f29a22e1b233a53439")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookBox.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookBox.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
